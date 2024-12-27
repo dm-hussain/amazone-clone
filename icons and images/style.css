@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ 
+
+.border {
+    border: 1.5px solid transparent;
+    height: 50px;
+    padding: 5px;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+
+
+
+.logo img {
+    height: 50px;
+    
+}
+
+
+#del {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 18px;
+   
+}
+.location {
+    display: flex;
+    color: white;
+}
+
+.location i {
+    padding-right: 5px;
+}
+
+
+.box3 {
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: space-between;
+    box-sizing: content-box;
+     
+   
+}
+
+.left {
+    display: flex;
+}
+
+.box3 select {
+    border: none;
+    height: 35px;
+    color: #0f1111;
+    padding: 5px;
+    font-size: 14px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.box3 input {
+    height: 35px;
+    width: 600px;
+    border: none;
+    font-size: 1rem;
+}
+
+.box3 select:hover {
+ cursor: pointer;
+}
+
+input:focus {
+    outline : none;  
+}
+
+
+.nav-icon {
+    height: 40px;
+    width: 45px;   
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+     
+     
+
+}
+
+.nav-icon:hover {
+    background-color: #d48402;
+    transition-duration: 100ms;
+    transition: ease-in-out
+}
+
+.nav-icon i {
+    font-size: 1.4rem;  
+    
+}
+
+.box4 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.box4  img {
+
+    height: 1rem;
+    
+
+}
+
+
+select {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+
+.box3, .nav-icon {
+     
+    border: 3px solid transparent;
+     
+    
+     
+}
+
+.box3:hover {
+     
+    border: 3px solid #d48402;
+    border-radius: 06px;
+    cursor: pointer;
+    
+     
+}
+
+
+.box5 p, .box6 p  {
+    color: white;
+    font-size: 0.75rem;
+}
+
+
+.box5 select {
+    font-weight: 700;
+    
+
+
+}
+
+.box6 section  {
+    color: white;
+}
+
+.box6 span {
+    color: white;
+    font-weight: 700;
+}
+
+ 
+
+ .cart {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    
+ }
+
+
+ .cart i {
+    font-size: 1.8rem;
+ }
+
+ .cart p {
+    align-self:last baseline;
+    margin-bottom: .2rem;
+ }
+
+
+ .top-pannel1{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+     
+ }
+
+ .box-all {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+        margin-left: 30px;
+    
+ }
+
+
+ .box-all p {
+     color: white;
+ }
+
+
+  .top-pannel1 a {
+    margin-left: 30px;
+    color: white;
+    font-size: 0.9rem;
+ }
+
+ .top-pannel1 i {
+    
+    color: white;
+    font-size: 0.9rem;
+ }
+
+
+ .border2 {
+    border: 1.5px solid transparent;
+    height: 30px;
+    padding: 5px;
+}
+
+.border2:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+ 
+
+
+/* Hero Section.................................... */
+
+.hero-section {
+    height: 300px;
+    width: 98vw;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+    
+}
+
+.top-pannel2 {
+    height: 40px;
+    width: 95vw;
+    background-color: rgb(255, 255, 255);
+   
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+
+.top-pannel2 a {
+
+    color: RGB(11 80 101);
+    font-size: .85rem;
+}
+
+
+.top-pannel2 p {
+    font-size: .85rem;
+}
+
+
+/* Content Section..................................... */
+
+
+.content-sec{
+    width: 94vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.content-box{
+    height: 420px;
+    width: 23%;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+   
+    padding: 5px 10px;
+    margin-bottom: 2rem;
+    
+   
+    }
+
+
+    .product-img{
+        background-image: url("image2.jpg");
+        background-size: cover;
+        
+        height: 340px;
+        width: 100%;
+        margin: 10px 0;
+        
+       
+    }
+
+    .content-box a{
+        color: RGB(4 117 152);
+        font-size: 0.7rem;
+      
+        margin: 5px 0;
+        
+        
+    }
+
+
+    .content-box p{
+        font-size: 21px;
+        font-weight: 700;
+      
+        
+    }
+
+
+    
+
+
+    .bottom-pannel {
+        text-align: center;
+        margin : 80px 0;
+         
+    }
+ 
+
+    .bottom-pannel a {
+        color: #002e66;
+        font-size: 0.8rem;
+        
+    }
+
+    .bottom-pannel a:hover {
+        color: rgb(188, 40, 3);
+        
+    }
+
+    .bottom-pannel p {
+         
+        font-size: 0.8rem;
+    }
+
+    .bottom-pannel button {
+        border: none;
+        background-color: #ffc42d;
+        border: 2px solid orange;
+        border-radius: 5px;
+        padding: 5px 100px;
+        margin: 2px 0;
+        font-weight: 700;
+    }
+
+    .bottom-pannel button:hover {
+        cursor: pointer;
+        background-color: #d69a03;
+    }
+
+
+
+    /* nav Footer Back To Top */
+    
+    .navFooterBackToTop {
+        height: 50px;
+        width: 100vw;
+        background-color:  #37475a;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-size: 0.85rem;
+    }
+
+    .navFooterBackToTop:hover {
+
+        background-color:  #495f7b;
+        cursor: pointer;
+
+    }
+
+
+    /* footer pannel ...........................*/
+
+
+    .footer-pannel1{
+        height: 40vh;
+        width: 100vw;
+        background-color: #232f3e;
+        
+
+    }
+
+    .footer-pannel2{
+        height: 10vh;
+        width: 100vw;
+        background-color: #232f3e;
+         
+    }
+
+    hr{
+        height: 1px;
+        background: rgb(255, 253, 253);
+         
+    }
+
+    .footer-pannel1 p {
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+
+    .footer-pannel1 li {
+        color: white;
+        font-size: 0.85rem;
+        line-height: 1.5rem;
+        list-style: none;
+    }
+
+
+    .footer-pannel1 li:hover{
+        cursor: pointer;
+        text-decoration: underline;
+       
+
+    }
+
+
+
+.foot-container1{
+        display: flex;
+        justify-content: space-evenly;
+         align-content: top;
+         padding-top: 50px;
+}
+    
+
+
+
+.footer-pannel2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot-logo {
+    
+    margin-right: 100px;
+    height: 50px;
+    margin-top: 10px;
+     
+}
+
+ 
+
+
+.foot-lang   {
+    display: flex;
+    gap: 10px;
+}
+
+.language, .country, .dolar {
+    display: flex;
+    gap: 3px;
+    font-size: 0.85rem;
+
+}
+
+.footbox-border {
+    border: 1px solid white;
+    padding: 8px 18px;
+    color: white;
+    
+}
+
+
+.footbox-border:hover, .foot-logo:hover {
+    cursor: pointer;
+}
+
+
+/* footer Pannel 3.............................. */
+
+.footer-pannel3 {
+    background-color: #131a22;
+    height: 55vh;
+}
+
+
+.link {
+    width: 80px;
+    line-height: 0.85rem ;
+    
+    
+}
+
+
+.link:hover {
+    
+    text-decoration: underline;
+    color: white;
+    
+    
+}
+
+
+.link a {
+    font-size: 0.75rem;
+    color: white;
+     
+
+}
+.link span {
+    font-size: 0.6rem;
+    color: #747576;
+    
+    
+}
+
+
+/* Link Container.......................... */
+
+
+.link-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+
+
+
+/* Foot-pannel4................... */
+
+
+.foot-pannel4 {
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.foot-pannel4 span  {
+    text-decoration: rgb(255, 255, 255) dotted underline;
+   color: #d48402;
+}
